@@ -1,68 +1,9 @@
 ---
-- curated_id: d101bea5522f8877a16e6677c2e0e7bd
-  item_date: "2012-05-05 11:46:25"
-  title: Google Plugin for Eclipse now provides richer tooling for Cloud SQL and Google
-    APIs
-  url: https://developers.googleblog.com/2012/05/google-plugin-for-eclipse-now-provides.html
-  domain: developers.googleblog.com
-  image: ""
-- curated_id: eff5107e7e3202c3de593d10525a2ae6
-  item_date: "2012-06-12 09:57:19"
-  title: Facebook Integration for WordPress
-  url: https://www.facebook.com/unsupportedbrowser
-  domain: www.facebook.com
-  image: ""
-- curated_id: d5c25bfe78f610532b6de60f81def84a
-  item_date: "2013-01-11 00:00:00"
-  title: |-
-    Weve just updated our GTmetrix for WordPress plugin to v0.4!
-    Added some new features and some tweaks/bug fixes.
-    http://t.co/3B8smf0i
-  url: https://gtmetrix.com/
-  domain: gtmetrix.com
-  image: ""
-- curated_id: 4f7ceabddc24171e567173c0ba760882
-  item_date: "2013-01-14 00:00:00"
-  title: Sencha Eclipse Plugin Tips  Tricks
-  url: https://www.sencha.com/blog/sencha-visual-studio-and-eclipse-plugins-are-generally-available/
-  domain: www.sencha.com
-  image: ""
-- curated_id: 5d33900cb9e0175c1a4e897709ebb651
-  item_date: "2013-02-26 00:00:00"
-  title: Sencha Eclipse Plugin 2.0 New and Noteworthy
-  url: https://www.sencha.com/blog/
-  domain: www.sencha.com
-  image: ""
-- curated_id: 61799422b4f1c9c6040b1092c0a9e914
-  item_date: "2013-04-09 00:00:00"
-  title: 'Developer plugin 1.2 released: UI Improvements and New Plugins'
-  url: https://developer.wordpress.com/2013/04/09/developer-plugin-1-2-released-ui-improvements-and-new-plugins/
-  domain: developer.wordpress.com
-  image: ""
-- curated_id: 8ce8b6abdb649cdd089db6815aa6774d
-  item_date: "2013-04-10 00:00:00"
-  title: How to Create GroupDocs Plugin for Contao CMS
-  url: http://www.groupdocs.com/blog/how-to-create-groupdocs-plugin-for-cms
-  domain: www.groupdocs.com
-  image: ""
-- curated_id: 9bf8db9c311dfc1ef1a85807a2c3b63e
-  item_date: "2013-05-21 00:00:00"
-  title: 'Add Ons: Open API'
-  url: https://devot-ee.com/add-ons/open-api
-  domain: devot-ee.com
-  image: ""
-- curated_id: 74b84fc3fb0e3fc35d50e86b42861418
-  item_date: "2013-05-24 00:00:00"
-  title: Annotate PDF, Word and Other Files in TextPattern Using the GroupDocs Annotation
-    Plugin
-  url: http://www.groupdocs.com/blog/annotate-pdf-word-and-other-files-in-textpattern-using-the-groupdocs-annotation-plugin
-  domain: www.groupdocs.com
-  image: ""
-- curated_id: b29cb94ac277aa0c50f8fa681abba145
-  item_date: "2013-06-21 00:00:00"
-  title: Read AND write to CartoDB with the Leaflet.draw plugin
-  url: http://blog.cartodb.com/post/53510434258/read-and-write-to-cartodb-with-the-leaflet-draw-plugin
-  domain: blog.cartodb.com
+- curated_id: 66b47d1960b01b91be60b706656d5331
+  item_date: "2015-01-07 00:00:00"
+  title: Responding To Ecosystem Concerns, Docker Talks Plugin Architecture
+  url: http://www.diversity.net.nz/responding-to-ecosystem-concerns-docker-talks-plugin-architecture/2015/01/07/
+  domain: www.diversity.net.nz
   image: ""
 - curated_id: a59eee0198ede2fc2a9cfe3deff74662
   item_date: "2015-01-07 00:00:00"
@@ -70,23 +11,17 @@
   url: http://blog.factual.com
   domain: blog.factual.com
   image: ""
-- curated_id: 66b47d1960b01b91be60b706656d5331
-  item_date: "2015-01-07 00:00:00"
-  title: Responding To Ecosystem Concerns, Docker Talks Plugin Architecture
-  url: http://www.diversity.net.nz/responding-to-ecosystem-concerns-docker-talks-plugin-architecture/2015/01/07/
-  domain: www.diversity.net.nz
+- curated_id: 6103d92c45e431dc29b04ff4a2098294
+  item_date: "2015-02-25 00:00:00"
+  title: Twitter now has an official WordPress plugin
+  url: http://thenextweb.com/twitter/2015/02/25/twitter-now-has-an-official-wordpress-plugin/
+  domain: thenextweb.com
   image: ""
 - curated_id: 6a942ccbc03899f803ca5eac95538207
   item_date: "2015-02-25 00:00:00"
   title: The official Twitter plugin for WordPress is here
   url: https://blog.twitter.com/2015/twitter-plugin-wordpress
   domain: blog.twitter.com
-  image: ""
-- curated_id: 6103d92c45e431dc29b04ff4a2098294
-  item_date: "2015-02-25 00:00:00"
-  title: Twitter now has an official WordPress plugin
-  url: http://thenextweb.com/twitter/2015/02/25/twitter-now-has-an-official-wordpress-plugin/
-  domain: thenextweb.com
   image: ""
 - curated_id: c1ab19b454f7752b94cf347838bf9aa9
   item_date: "2015-03-29 00:00:00"
@@ -182,17 +117,17 @@
   url: http://blog.runscope.com/posts/build-runscope-tests-into-your-continuous-integration-process-with-jenkins-plugin
   domain: blog.runscope.com
   image: ""
-- curated_id: 334b49c4436f659a90854ad31eb62069
-  item_date: "2015-08-11 00:00:00"
-  title: Generating sitemap.xml in Jekyll, without using plugins
-  url: http://www.codeproject.com/Articles/1018022/Generating-sitemap-xml-in-Jekyll-without-using-plu
-  domain: www.codeproject.com
-  image: ""
 - curated_id: d1694086a9ce9c2a7e5b2b685d7eb8c2
   item_date: "2015-08-11 00:00:00"
   title: SmartBear Releases CoAP Testing Plugin for Ready! API Platform
   url: http://www.programmableweb.com/news/smartbear-releases-coap-testing-plugin-ready-api-platform/brief/2015/08/11
   domain: www.programmableweb.com
+  image: ""
+- curated_id: 334b49c4436f659a90854ad31eb62069
+  item_date: "2015-08-11 00:00:00"
+  title: Generating sitemap.xml in Jekyll, without using plugins
+  url: http://www.codeproject.com/Articles/1018022/Generating-sitemap-xml-in-Jekyll-without-using-plu
+  domain: www.codeproject.com
   image: ""
 - curated_id: 02172e8085bdd190ee7bdc0a27173590
   item_date: "2015-08-21 08:30:09"
@@ -212,17 +147,17 @@
   url: https://blog.appery.io/2015/10/quickly-visualize-enterprise-data-with-the-new-chart-plugin/
   domain: blog.appery.io
   image: ""
-- curated_id: cf5334ec1bc4260f1134c988e84d39c5
-  item_date: "2015-11-05 00:00:00"
-  title: Twitter launches Answers Kit as standalone Fabric plugin
-  url: http://thenextweb.com/dd/2015/11/05/twitter-launches-answers-kit-as-standalone-fabric-plugin/
-  domain: thenextweb.com
-  image: ""
 - curated_id: ca766988e0c15b3a9d92451f30a0e6b0
   item_date: "2015-11-05 00:00:00"
   title: New Plugin for SmartBear Ready! API Integrates with Amazon API Gateway
   url: http://www.programmableweb.com/news/new-plugin-smartbear-ready-api-integrates-amazon-api-gateway/announcement/2015/11/05
   domain: www.programmableweb.com
+  image: ""
+- curated_id: cf5334ec1bc4260f1134c988e84d39c5
+  item_date: "2015-11-05 00:00:00"
+  title: Twitter launches Answers Kit as standalone Fabric plugin
+  url: http://thenextweb.com/dd/2015/11/05/twitter-launches-answers-kit-as-standalone-fabric-plugin/
+  domain: thenextweb.com
   image: ""
 - curated_id: eb2e1d5aff810ec6b3335d45a3e16816
   item_date: "2015-12-10 00:00:00"
@@ -413,5 +348,105 @@
   title: NPAPI ? a plugin to retrieve device information
   url: http://www.codeproject.com/Articles/1144187/NPAPI-a-plugin-to-retrieve-device-information
   domain: www.codeproject.com
+  image: ""
+- curated_id: 9bb174dcdb0fc14ff7d847f5b2f42673
+  item_date: "2016-12-27 00:00:00"
+  title: Hide My WP - Amazing Security Plugin for WordPress!
+  url: http://www.telechargementsz.com/downloads1/hide-my-wp-amazing-security-plugin-for-wordpress/
+  domain: www.telechargementsz.com
+  image: ""
+- curated_id: 82d52f49cf879d09df782b80cd84052a
+  item_date: "2016-12-30 10:14:55"
+  title: 'GitHub - yarax/eslint-plugin-typelint: TypeLint is an ESlint plugin for
+    optional typing in JavaScript, based on JSDoc.'
+  url: https://github.com/yarax/eslint-plugin-typelint
+  domain: github.com
+  image: ""
+- curated_id: b95c3c03dc7c4125eb2c26bac827c0d3
+  item_date: "2017-01-03 00:00:00"
+  title: The CarQuery API WordPress Plugin Version 1.4
+  url: http://www.carqueryapi.com/wordpress-plugin-version-1-4/
+  domain: www.carqueryapi.com
+  image: ""
+- curated_id: 7411acdaf3f2bc1a6efa5c7de4b666cc
+  item_date: "2017-01-03 17:59:09"
+  title: 'Tweet: RT @mogui247: A Kong plugin, that let you use an external Oauth 2.0
+    provider to protect your API https://t.co/rJLED5Zeh5 #opensource @mashahellip;'
+  url: https://github.com/mogui/kong-external-oauth/tree/master
+  domain: github.com
+  image: ""
+- curated_id: 4463864ca98e716b2f38834709da3c76
+  item_date: "2017-02-02 00:00:00"
+  title: WordPress WooCommerce Marketplace Buyer Seller Chat Plugin (WooCommerce)
+  url: https://codecanyon.net/item/wordpress-woocommerce-marketplace-buyer-seller-chat-plugin/19393357
+  domain: codecanyon.net
+  image: ""
+- curated_id: 398e08c3266b414638192750769458d1
+  item_date: "2017-02-02 00:00:00"
+  title: WP Grid Gallery I Wordpress Gallery Plugin (Galleries)
+  url: https://codecanyon.net/item/wp-grid-gallery-i-wordpress-gallery-plugin/19334904
+  domain: codecanyon.net
+  image: ""
+- curated_id: 914c56a6e45d5f8f7d980cff4fee0764
+  item_date: "2017-03-01 14:19:09"
+  title: New WordPress API Portal plugin
+  url: https://tyk.io/2017/03/01/new-wordpress-api-portal-plugin/
+  domain: tyk.io
+  image: ""
+- curated_id: cb1a4f5622ab7429063d76726647cd86
+  item_date: "2017-03-02 00:00:00"
+  title: Introducing the Docker Certification Program for Infrastructure, Plugins
+    and Containers
+  url: https://blog.docker.com/2017/03/announcing-docker-certified/
+  domain: blog.docker.com
+  image: ""
+- curated_id: e88c0d6000d5045967f4fc32ab91005c
+  item_date: "2017-03-08 00:00:00"
+  title: WordPress Audio Players Plugin with Layout Builder (Media)
+  url: https://codecanyon.net/item/wordpress-audio-players-plugin-with-layout-builder/19560050
+  domain: codecanyon.net
+  image: ""
+- curated_id: 0c6fcfac845d81467a56f285598db46f
+  item_date: "2017-03-10 00:00:00"
+  title: A Look at the Percepio FreeRTOS Tracealyzer Plugin for Eclipse
+  url: https://dzone.com/articles/a-look-at-the-percepio-freertos-tracealyzer-plugin
+  domain: dzone.com
+  image: ""
+- curated_id: 3c084a50a7c99d8b59285b0f6e802338
+  item_date: "2017-03-13 00:00:00"
+  title: Eclipse Plugins via HTTPS and Lets Encrypt
+  url: https://dzone.com/articles/eclipse-plug-ins-via-https-amp-lets-encrypt
+  domain: dzone.com
+  image: ""
+- curated_id: 6f186352dba405c0b805fd3795a56a96
+  item_date: "2017-03-21 00:00:00"
+  title: BasePress - WordPress Knowledge Base Plugin (Miscellaneous)
+  url: https://codecanyon.net/item/basepress-wordpress-knowledge-base-plugin/19613878
+  domain: codecanyon.net
+  image: ""
+- curated_id: bc5c2ebf8b7034ef40d4379a46bd07a0
+  item_date: "2017-04-08 00:00:00"
+  title: "Google Admits Its Results Aren\u2019t Facts And Uses Third Party Plugins
+    to Keep You Informed Of That?"
+  url: https://blog.ouseful.info/2017/04/08/google-admits-its-results-arent-facts-and-uses-third-party-plugins-to-keep-you-informed/
+  domain: blog.ouseful.info
+  image: ""
+- curated_id: 9fded4df226123bd8d010fff8a032b82
+  item_date: "2017-04-11 00:00:00"
+  title: 'Doc Pops News Drop: A WordPress plugin for Amazons Alexa'
+  url: https://torquemag.io/2017/04/doc-pops-news-drop-wordpress-skill-amazons-alexa/
+  domain: torquemag.io
+  image: ""
+- curated_id: 7819a529b078280a2cb77e6ecc54c84b
+  item_date: "2017-04-12 00:00:00"
+  title: "Chip\u2019s new chatbot app points the way to \u2018plugin banking\u2019"
+  url: https://techcrunch.com/2017/04/12/chips-new-chatbot-app-points-the-way-to-plugin-banking/
+  domain: techcrunch.com
+  image: ""
+- curated_id: b4620d8539d19ba1b2fb2ce19214dfe1
+  item_date: "2017-04-23 00:00:00"
+  title: Build a Plugin and Add a Listener to an Index in ElasticSearch 5
+  url: https://dzone.com/articles/elasticsearch5-how-to-build-a-plugin-and-add-a-lis
+  domain: dzone.com
   image: ""
 ...
