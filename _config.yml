@@ -1,6 +1,6 @@
-title:        API Plugins
-url:          http://plugins.apievangelist.com
-raw_url: http://plugins.apievangelist.com/apis/
+title:        API Plugin
+url:          http://plugin.apievangelist.com
+raw_url: http://plugin.apievangelist.com/apis/
 
 tag: Plugins
 
@@ -21,7 +21,7 @@ paginate: 25
 paginate_path: "/blog/page:num"
 
 github_user: api-evangelist
-github_repo: plugins
+github_repo: plugin
 github_branch: gh-pages
 
 # Footer
