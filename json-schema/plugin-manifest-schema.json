@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/plugin/refs/heads/main/json-schema/plugin-manifest-schema.json",
+  "title": "PluginManifest",
+  "description": "Declarative manifest describing the identity, permissions, entry points, and capabilities of a plugin or extension across host platforms such as VS Code, JetBrains, Chrome, Atlassian Forge, Slack, Shopify, and similar plugin runtimes.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique plugin identifier, often namespaced by publisher.",
+      "example": "anthropic.claude-code"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name of the plugin.",
+      "example": "Claude Code"
+    },
+    "version": {
+      "type": "string",
+      "description": "Semantic version of the plugin.",
+      "example": "1.4.0"
+    },
+    "publisher": {
+      "type": "string",
+      "description": "Publisher or organization that owns the plugin.",
+      "example": "Anthropic"
+    },
+    "description": {
+      "type": "string",
+      "description": "Short description of what the plugin does.",
+      "example": "AI pair programmer that helps you write, edit, and review code from inside your editor."
+    },
+    "host": {
+      "type": "string",
+      "description": "Host platform or runtime the plugin targets.",
+      "enum": [
+        "vscode",
+        "jetbrains",
+        "chrome",
+        "firefox",
+        "edge",
+        "atlassian-forge",
+        "atlassian-connect",
+        "salesforce",
+        "shopify",
+        "wordpress",
+        "slack",
+        "discord",
+        "appsource",
+        "google-workspace",
+        "notion",
+        "postman",
+        "figma",
+        "sketch",
+        "webflow",
+        "hubspot",
+        "zapier",
+        "auth0",
+        "kong",
+        "tyk",
+        "gravitee",
+        "open-webui",
+        "chatgpt",
+        "claude-code",
+        "openai",
+        "other"
+      ],
+      "example": "vscode"
+    },
+    "engines": {
+      "type": "object",
+      "description": "Minimum and maximum host engine versions the plugin supports.",
+      "properties": {
+        "min": { "type": "string", "example": "1.85.0" },
+        "max": { "type": "string", "example": "2.0.0" }
+      }
+    },
+    "entry_points": {
+      "type": "array",
+      "description": "Extension points, commands, modules, or hooks that this plugin contributes to its host.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "description": "Kind of extension point.",
+            "example": "command"
+          },
+          "id": {
+            "type": "string",
+            "description": "Identifier of the contribution.",
+            "example": "claude.openInlineChat"
+          },
+          "title": {
+            "type": "string",
+            "description": "Human-readable label for the contribution.",
+            "example": "Claude: Open Inline Chat"
+          }
+        }
+      }
+    },
+    "permissions": {
+      "type": "array",
+      "description": "Permission scopes the plugin requests from the host platform.",
+      "items": { "type": "string" },
+      "example": ["network", "storage", "clipboard"]
+    },
+    "categories": {
+      "type": "array",
+      "description": "Marketplace categories the plugin belongs to.",
+      "items": { "type": "string" },
+      "example": ["AI", "Programming Languages", "Snippets"]
+    },
+    "repository": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL of the source repository for the plugin.",
+      "example": "https://github.com/anthropic/claude-code"
+    },
+    "homepage": {
+      "type": "string",
+      "format": "uri",
+      "description": "Marketing or documentation homepage for the plugin.",
+      "example": "https://claude.com/code"
+    },
+    "license": {
+      "type": "string",
+      "description": "SPDX license identifier or license name for the plugin.",
+      "example": "MIT"
+    }
+  },
+  "required": ["id", "name", "version", "host"]
+}

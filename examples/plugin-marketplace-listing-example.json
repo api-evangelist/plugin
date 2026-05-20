@@ -1,0 +1,30 @@
+{
+  "listing_id": "anthropic.claude-code",
+  "name": "Claude Code",
+  "marketplace": "vs-code-marketplace",
+  "publisher": "anthropic",
+  "short_description": "AI pair programmer for your editor.",
+  "long_description": "Claude Code brings Anthropic's Claude model into VS Code for code generation, refactoring, multi-file edits, and PR review. Works alongside your normal editor workflow with inline chat, sidebar, and command palette entry points.",
+  "categories": [
+    "AI",
+    "Productivity",
+    "Developer Tools"
+  ],
+  "pricing_model": "freemium",
+  "rating": 4.7,
+  "rating_count": 1284,
+  "install_count": 1500000,
+  "verified": true,
+  "listing_url": "https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code",
+  "icon_url": "https://anthropic.com/images/claude-code-icon.png",
+  "screenshots": [
+    "https://anthropic.com/images/claude-code/inline-chat.png",
+    "https://anthropic.com/images/claude-code/review.png"
+  ],
+  "supports_hosts": [
+    "VS Code",
+    "VS Code Insiders"
+  ],
+  "current_version": "1.4.0",
+  "last_updated": "2026-05-12T10:30:00Z"
+}

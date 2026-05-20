@@ -1,0 +1,41 @@
+{
+  "id": "anthropic.claude-code",
+  "name": "Claude Code",
+  "version": "1.4.0",
+  "publisher": "Anthropic",
+  "description": "AI pair programmer that helps you write, edit, and review code from inside your editor.",
+  "host": "vscode",
+  "engines": {
+    "min": "1.85.0"
+  },
+  "entry_points": [
+    {
+      "type": "command",
+      "id": "claude.openInlineChat",
+      "title": "Claude: Open Inline Chat"
+    },
+    {
+      "type": "command",
+      "id": "claude.reviewChanges",
+      "title": "Claude: Review Pending Changes"
+    },
+    {
+      "type": "view",
+      "id": "claude.sidebar",
+      "title": "Claude"
+    }
+  ],
+  "permissions": [
+    "network",
+    "storage",
+    "clipboard"
+  ],
+  "categories": [
+    "AI",
+    "Programming Languages",
+    "Snippets"
+  ],
+  "repository": "https://github.com/anthropic/claude-code",
+  "homepage": "https://claude.com/code",
+  "license": "MIT"
+}

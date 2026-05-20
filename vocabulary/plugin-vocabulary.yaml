@@ -1,0 +1,336 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: Plugin
+  description: Vocabulary for the plugin topic, covering plugin and extension manifests, marketplace listings, installs, entitlements, extension points, and reviews across editor, SaaS, gateway, and AI plugin ecosystems.
+  created: '2026-05-19'
+  modified: '2026-05-19'
+
+operational:
+  apis:
+    - name: VS Code Marketplace Gallery API
+      namespace: vs-code-marketplace
+      status: active
+    - name: JetBrains Marketplace Plugins API
+      namespace: jetbrains-plugin
+      status: active
+    - name: Chrome Web Store Publish API
+      namespace: google-chrome
+      status: active
+    - name: Atlassian Marketplace REST API
+      namespace: atlassian
+      status: active
+    - name: Shopify Apps and Functions API
+      namespace: shopify
+      status: active
+    - name: Salesforce AppExchange Package API
+      namespace: salesforce
+      status: active
+    - name: WordPress Plugin Directory API
+      namespace: wordpress
+      status: active
+    - name: Slack Apps API
+      namespace: slack
+      status: active
+    - name: HubSpot Marketplace API
+      namespace: hubspot
+      status: active
+    - name: Kong Plugin Hub
+      namespace: kong
+      status: active
+
+  resources:
+    - name: plugins
+      description: Individual plugin or extension entries described by a manifest
+      actions:
+        - list
+        - get
+        - publish
+        - update
+        - unpublish
+    - name: listings
+      description: Marketplace listings describing plugins, apps, or add-ons for discovery and install
+      actions:
+        - list
+        - get
+        - search
+        - feature
+    - name: installs
+      description: Records of plugin or app installs for users, workspaces, or tenants
+      actions:
+        - create
+        - get
+        - list
+        - delete
+    - name: entitlements
+      description: License, subscription, and trial entitlements granting access to a plugin
+      actions:
+        - create
+        - get
+        - list
+        - revoke
+    - name: extension-points
+      description: Named hooks, modules, commands, or events that plugins implement against a host platform
+      actions:
+        - list
+        - get
+        - invoke
+    - name: reviews
+      description: User ratings and reviews of plugins or apps in a marketplace
+      actions:
+        - list
+        - get
+        - create
+
+  actions:
+    - name: list
+      description: Enumerate resources
+      httpMethod: GET
+      pattern: read
+    - name: get
+      description: Retrieve a single resource
+      httpMethod: GET
+      pattern: read
+    - name: search
+      description: Search listings or plugins by query, category, or publisher
+      httpMethod: GET
+      pattern: query
+    - name: publish
+      description: Publish a new plugin version or listing
+      httpMethod: POST
+      pattern: write
+    - name: update
+      description: Update an existing plugin, listing, or version
+      httpMethod: PUT
+      pattern: write
+    - name: unpublish
+      description: Remove a plugin or listing from the marketplace
+      httpMethod: DELETE
+      pattern: destructive
+    - name: create
+      description: Create a new install, entitlement, or review
+      httpMethod: POST
+      pattern: write
+    - name: delete
+      description: Remove an install, review, or other resource
+      httpMethod: DELETE
+      pattern: destructive
+    - name: revoke
+      description: Revoke an entitlement or license
+      httpMethod: DELETE
+      pattern: destructive
+    - name: feature
+      description: Mark a listing as featured in the marketplace
+      httpMethod: POST
+      pattern: write
+    - name: invoke
+      description: Invoke an extension point or plugin handler
+      httpMethod: POST
+      pattern: write
+
+  schemas:
+    core:
+      - name: PluginManifest
+        description: Manifest describing a plugin's identity, host, permissions, and entry points
+        properties:
+          - id
+          - name
+          - version
+          - publisher
+          - host
+          - entry_points
+          - permissions
+          - categories
+          - repository
+          - license
+      - name: MarketplaceListing
+        description: A plugin or app listing on a marketplace, including pricing, ratings, and install metrics
+        properties:
+          - listing_id
+          - name
+          - marketplace
+          - publisher
+          - short_description
+          - categories
+          - pricing_model
+          - rating
+          - install_count
+          - verified
+          - listing_url
+          - current_version
+          - last_updated
+
+  enums:
+    host_platforms:
+      - vscode
+      - jetbrains
+      - chrome
+      - firefox
+      - edge
+      - atlassian-forge
+      - atlassian-connect
+      - salesforce
+      - shopify
+      - wordpress
+      - slack
+      - discord
+      - appsource
+      - google-workspace
+      - notion
+      - postman
+      - figma
+      - sketch
+      - webflow
+      - hubspot
+      - zapier
+      - auth0
+      - kong
+      - tyk
+      - gravitee
+      - open-webui
+      - chatgpt
+      - claude-code
+      - openai
+    marketplaces:
+      - vs-code-marketplace
+      - jetbrains-marketplace
+      - chrome-web-store
+      - firefox-add-ons
+      - atlassian-marketplace
+      - salesforce-appexchange
+      - shopify-app-store
+      - wordpress-plugin-directory
+      - slack-app-directory
+      - microsoft-appsource
+      - google-workspace-marketplace
+      - hubspot-marketplace
+      - zapier-app-directory
+      - kong-plugin-hub
+      - openai-gpts
+      - claude-code-plugins
+    pricing_models:
+      - free
+      - freemium
+      - paid
+      - subscription
+      - usage-based
+      - byol
+
+capability:
+  workflows:
+    - name: Editor Plugin Publishing
+      description: Publish, version, and update an editor or IDE plugin through marketplace APIs
+      apis:
+        - vs-code-marketplace
+        - jetbrains-plugin
+      personas:
+        - Plugin Developer
+      domains:
+        - Editor Extensibility
+    - name: SaaS App Listing and Distribution
+      description: Submit, certify, and distribute apps that extend a SaaS platform through its marketplace
+      apis:
+        - atlassian
+        - salesforce
+        - shopify
+        - hubspot
+      personas:
+        - ISV Partner
+      domains:
+        - SaaS Marketplace
+    - name: Browser Extension Distribution
+      description: Package and ship a browser extension through Chrome Web Store or Firefox Add-ons
+      apis:
+        - google-chrome
+      personas:
+        - Plugin Developer
+      domains:
+        - Browser Extensibility
+    - name: API Gateway Plugin Authoring
+      description: Build, package, and install custom plugins for an API gateway runtime
+      apis:
+        - kong
+        - tyk
+        - gravitee
+      personas:
+        - Platform Engineer
+      domains:
+        - Gateway Extensibility
+    - name: AI Agent Plugin Authoring
+      description: Build tools, functions, and plugins that extend LLM hosts and AI agents
+      apis:
+        - open-webui
+        - chatgpt
+        - openai
+        - claude
+      personas:
+        - AI Plugin Author
+      domains:
+        - AI Extensibility
+
+  personas:
+    - id: plugin-developer
+      name: Plugin Developer
+      description: Individual or small-team developers building editor, browser, or AI plugins
+      workflows:
+        - Editor Plugin Publishing
+        - Browser Extension Distribution
+        - AI Agent Plugin Authoring
+    - id: isv-partner
+      name: ISV Partner
+      description: Independent software vendors building and listing apps on SaaS platform marketplaces
+      workflows:
+        - SaaS App Listing and Distribution
+    - id: platform-engineer
+      name: Platform Engineer
+      description: Engineers extending API gateways and platform runtimes with custom plugins
+      workflows:
+        - API Gateway Plugin Authoring
+    - id: ai-plugin-author
+      name: AI Plugin Author
+      description: Builders authoring tools, GPTs, and functions for LLM agents and chat interfaces
+      workflows:
+        - AI Agent Plugin Authoring
+
+  domains:
+    - name: Editor Extensibility
+      description: Editors and IDEs that host plugins through declarative manifests and marketplaces
+    - name: SaaS Marketplace
+      description: SaaS platforms that publish apps and extensions through partner marketplaces
+    - name: Browser Extensibility
+      description: Browsers that distribute extensions through web stores governed by manifest formats
+    - name: Gateway Extensibility
+      description: API gateways and identity platforms that expose plugin runtimes and policy hooks
+    - name: AI Extensibility
+      description: AI platforms and LLM hosts that expose plugin, tool, and function surfaces
+
+crossReference:
+  - resource: plugins
+    operations:
+      - publish
+      - update
+      - unpublish
+    workflows:
+      - Editor Plugin Publishing
+      - Browser Extension Distribution
+    personas:
+      - Plugin Developer
+  - resource: listings
+    operations:
+      - list
+      - search
+      - feature
+    workflows:
+      - SaaS App Listing and Distribution
+    personas:
+      - ISV Partner
+  - resource: extension-points
+    operations:
+      - list
+      - invoke
+    workflows:
+      - API Gateway Plugin Authoring
+      - AI Agent Plugin Authoring
+    personas:
+      - Platform Engineer
+      - AI Plugin Author

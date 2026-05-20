@@ -1,0 +1,140 @@
+aid: plugin
+name: Plugin
+description: >-
+  An index and topic collection covering plugin, extension, and add-on architectures with public APIs and marketplaces. This collection spans editor and IDE plugin ecosystems (VS Code Marketplace, JetBrains Marketplace, Chrome Web Store, Firefox Add-ons), SaaS platform extension marketplaces (Atlassian Marketplace and Forge, Salesforce AppExchange, Shopify App Store, WordPress Plugins, Slack Apps, Discord Apps, Microsoft AppSource, Google Workspace Marketplace, Notion, Postman, Figma, Sketch, Webflow Apps, HubSpot Marketplace, Zapier App Directory), API gateway plugin frameworks (Kong Plugin Hub, Tyk Plugins, Gravitee Plugins), identity extensibility (Auth0 Actions and Extensions), and AI plugin and tool ecosystems (Open WebUI Functions, ChatGPT Plugins and GPTs, Claude Code plugins, OpenAI tools). It tracks the manifests, listing schemas, install and entitlement flows, extension points, and review and distribution APIs that power modern plugin and extension marketplaces.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Plugin
+- Extension
+- Marketplace
+- App Directory
+- Add-on
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/plugin/refs/heads/main/apis.yml
+created: '2026-05-19'
+modified: '2026-05-19'
+specificationVersion: '0.19'
+apis: []
+network:
+- name: VS Code Marketplace
+  url: https://raw.githubusercontent.com/api-evangelist/vs-code-marketplace/refs/heads/main/apis.yml
+- name: JetBrains Marketplace
+  url: https://raw.githubusercontent.com/api-evangelist/jetbrains-plugin/refs/heads/main/apis.yml
+- name: Google Chrome
+  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/apis.yml
+- name: Atlassian
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/apis.yml
+- name: Salesforce
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/apis.yml
+- name: Shopify
+  url: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/apis.yml
+- name: WordPress
+  url: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/apis.yml
+- name: Slack
+  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/apis.yml
+- name: Discord
+  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/apis.yml
+- name: Microsoft Office 365
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/apis.yml
+- name: Google Workspace
+  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/apis.yml
+- name: Notion
+  url: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/apis.yml
+- name: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/apis.yml
+- name: Figma
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/apis.yml
+- name: Webflow
+  url: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/apis.yml
+- name: HubSpot
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/apis.yml
+- name: Zapier
+  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/apis.yml
+- name: Auth0
+  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/apis.yml
+- name: Kong
+  url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/apis.yml
+- name: Tyk
+  url: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/apis.yml
+- name: Gravitee
+  url: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/apis.yml
+- name: Open WebUI
+  url: https://raw.githubusercontent.com/api-evangelist/open-webui/refs/heads/main/apis.yml
+- name: ChatGPT
+  url: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/apis.yml
+- name: OpenAI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/apis.yml
+- name: Claude
+  url: https://raw.githubusercontent.com/api-evangelist/claude/refs/heads/main/apis.yml
+common:
+- type: Portal
+  url: https://apievangelist.com
+- type: GitHubOrganization
+  url: https://github.com/api-evangelist
+- type: Features
+  data:
+  - name: Plugin Manifests
+    description: Marketplaces and runtimes use declarative manifests (manifest.json for Chrome and VS Code, plugin.xml for JetBrains, app manifests for Slack and Atlassian Connect) to describe identity, permissions, entry points, and capabilities of a plugin.
+  - name: Marketplace Listing and Discovery APIs
+    description: Public APIs and search endpoints expose listings, categories, ratings, and download counts so developers and users can discover plugins across VS Code Marketplace, Chrome Web Store, JetBrains Marketplace, Shopify App Store, and Atlassian Marketplace.
+  - name: Extension Points and Hooks
+    description: Host platforms expose well-defined extension points, events, and lifecycle hooks (Forge modules, Shopify Functions, Auth0 Actions, Kong plugin phases, WordPress hooks) that plugins implement to integrate with the host.
+  - name: Install, Update, and Entitlement Flows
+    description: Marketplaces standardize installation, OAuth grant, license check, and entitlement validation flows for individual users, organizations, and tenants, including paid plugin billing and trials.
+  - name: Sandboxing and Permissions
+    description: Plugin runtimes enforce permission scopes, sandboxed execution (Atlassian Forge, Chrome MV3 service workers, Slack Bolt scopes, Salesforce managed packages) and review processes to protect host platforms and end users.
+  - name: AI Tooling and Agent Plugins
+    description: AI platforms expose plugin and tool surfaces (ChatGPT GPTs and plugins, Open WebUI Functions, Claude Code plugins, OpenAI tools) that let third-party developers extend LLM behavior with custom actions, retrieval, and integrations.
+  - name: API Gateway Plugin Frameworks
+    description: API gateways such as Kong, Tyk, and Gravitee define plugin frameworks where authentication, transformation, rate limiting, and observability behavior is implemented and distributed as installable plugins.
+- type: UseCases
+  data:
+  - name: Editor and IDE Extensibility
+    description: Developers ship language support, linters, debuggers, and AI assistants as plugins through VS Code Marketplace and JetBrains Marketplace, reaching millions of editor installations through manifest-driven distribution.
+  - name: SaaS Platform App Marketplaces
+    description: ISVs build and list apps on Salesforce AppExchange, Shopify App Store, Atlassian Marketplace, HubSpot Marketplace, and Slack App Directory to extend SaaS platforms and reach enterprise customers.
+  - name: Browser Extension Distribution
+    description: Developers package and distribute browser extensions for content blocking, productivity, password management, and accessibility through Chrome Web Store, Firefox Add-ons, and Microsoft Edge Add-ons.
+  - name: API Gateway Customization
+    description: Platform teams extend Kong, Tyk, and Gravitee with custom plugins for authentication, request transformation, AI prompt firewalls, and policy enforcement, often shared through plugin hubs.
+  - name: CMS and Commerce Extensibility
+    description: WordPress plugin directory and Shopify App Store let merchants and publishers extend CMS and commerce platforms with payment processors, shipping integrations, page builders, and analytics.
+  - name: AI Agent Tooling
+    description: Builders publish ChatGPT GPTs and plugins, Open WebUI Functions, and Claude Code plugins to give AI agents domain-specific tools, retrieval sources, and connectors to external systems.
+  - name: Identity and Access Extensions
+    description: Auth0 Actions, Extensions, and the Auth0 Marketplace let teams add custom rules, MFA providers, and SSO integrations to identity flows without forking the platform.
+- type: Integrations
+  data:
+  - name: VS Code Marketplace
+    description: Microsoft's marketplace for Visual Studio Code and Visual Studio extensions, with a Gallery API for search, download, and metadata.
+  - name: JetBrains Marketplace
+    description: Official plugin and theme distribution platform for IntelliJ IDEA, PyCharm, WebStorm, and other JetBrains IDEs with a public plugins API.
+  - name: Chrome Web Store
+    description: Google's distribution channel for Chrome and Edge browser extensions and themes, governed by Manifest V3 and the Chrome Web Store API.
+  - name: Atlassian Marketplace
+    description: Marketplace for apps that extend Jira, Confluence, and Bitbucket, including Atlassian Connect and Forge apps with a public Marketplace REST API.
+  - name: Salesforce AppExchange
+    description: Enterprise marketplace for managed packages and Lightning components extending Salesforce CRM, with package install APIs and security review.
+  - name: Shopify App Store
+    description: Marketplace for apps extending Shopify Admin, Storefront, and Checkout via Shopify Apps, Functions, and Theme App Extensions.
+  - name: WordPress Plugin Directory
+    description: Open directory of free WordPress plugins powering a large share of the web, distributed through wordpress.org with a public plugins.org API.
+  - name: Slack App Directory
+    description: Directory of Slack apps and integrations built on the Slack platform, manifested through app config and the Apps API.
+  - name: Microsoft AppSource
+    description: Microsoft's marketplace for business apps and Office 365 add-ins, Teams apps, and Power Platform connectors.
+  - name: Google Workspace Marketplace
+    description: Distribution platform for Google Workspace add-ons and Apps Script-based extensions to Gmail, Drive, Docs, Sheets, and Calendar.
+  - name: HubSpot Marketplace
+    description: Marketplace for HubSpot apps, themes, and templates extending the HubSpot CRM and CMS via OAuth apps and serverless functions.
+  - name: Zapier App Directory
+    description: Directory of integrations and triggers/actions that Zapier exposes to its automation builder via the Zapier Platform CLI and Public APIs.
+  - name: Kong Plugin Hub
+    description: Catalog of first-party and community plugins for Kong Gateway and Konnect, written in Lua, Go, or JavaScript and distributed through the Plugin Hub.
+  - name: Open WebUI Functions
+    description: Pluggable functions, tools, and pipelines that extend the Open WebUI LLM chat interface with custom integrations and behavior.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+humanURL: https://apievangelist.com

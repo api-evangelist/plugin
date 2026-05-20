@@ -1,0 +1,110 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "plugin": "https://api-evangelist.github.io/plugin/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcat": "https://www.w3.org/ns/dcat#",
+
+    "PluginManifest": "plugin:PluginManifest",
+    "MarketplaceListing": "dcat:Resource",
+
+    "id": "@id",
+    "name": "schema:name",
+    "description": "schema:description",
+    "publisher": "schema:publisher",
+    "version": {
+      "@id": "schema:softwareVersion",
+      "@type": "xsd:string"
+    },
+    "current_version": {
+      "@id": "schema:softwareVersion",
+      "@type": "xsd:string"
+    },
+    "host": {
+      "@id": "plugin:host",
+      "@type": "xsd:string"
+    },
+    "engines": {
+      "@id": "plugin:engines",
+      "@type": "@id"
+    },
+    "entry_points": {
+      "@id": "plugin:entryPoint",
+      "@container": "@set"
+    },
+    "permissions": {
+      "@id": "plugin:permission",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "categories": {
+      "@id": "dcat:keyword",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "repository": {
+      "@id": "schema:codeRepository",
+      "@type": "@id"
+    },
+    "homepage": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "xsd:string"
+    },
+
+    "listing_id": "@id",
+    "marketplace": {
+      "@id": "plugin:marketplace",
+      "@type": "xsd:string"
+    },
+    "short_description": "schema:abstract",
+    "long_description": "schema:description",
+    "pricing_model": {
+      "@id": "plugin:pricingModel",
+      "@type": "xsd:string"
+    },
+    "rating": {
+      "@id": "schema:ratingValue",
+      "@type": "xsd:decimal"
+    },
+    "rating_count": {
+      "@id": "schema:ratingCount",
+      "@type": "xsd:integer"
+    },
+    "install_count": {
+      "@id": "plugin:installCount",
+      "@type": "xsd:integer"
+    },
+    "verified": {
+      "@id": "plugin:verified",
+      "@type": "xsd:boolean"
+    },
+    "listing_url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "icon_url": {
+      "@id": "schema:image",
+      "@type": "@id"
+    },
+    "screenshots": {
+      "@id": "schema:image",
+      "@container": "@set",
+      "@type": "@id"
+    },
+    "supports_hosts": {
+      "@id": "plugin:supportsHost",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "last_updated": {
+      "@id": "dcterms:modified",
+      "@type": "xsd:dateTime"
+    }
+  }
+}

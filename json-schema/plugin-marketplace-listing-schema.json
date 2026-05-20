@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/plugin/refs/heads/main/json-schema/plugin-marketplace-listing-schema.json",
+  "title": "MarketplaceListing",
+  "description": "A public listing for a plugin, extension, app, or add-on in a marketplace such as VS Code Marketplace, JetBrains Marketplace, Chrome Web Store, Atlassian Marketplace, Shopify App Store, or Salesforce AppExchange.",
+  "type": "object",
+  "properties": {
+    "listing_id": {
+      "type": "string",
+      "description": "Marketplace-assigned identifier for the listing.",
+      "example": "anthropic.claude-code"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name of the listing.",
+      "example": "Claude Code"
+    },
+    "marketplace": {
+      "type": "string",
+      "description": "Marketplace that hosts this listing.",
+      "enum": [
+        "vs-code-marketplace",
+        "jetbrains-marketplace",
+        "chrome-web-store",
+        "firefox-add-ons",
+        "edge-add-ons",
+        "atlassian-marketplace",
+        "salesforce-appexchange",
+        "shopify-app-store",
+        "wordpress-plugin-directory",
+        "slack-app-directory",
+        "discord-app-directory",
+        "microsoft-appsource",
+        "google-workspace-marketplace",
+        "notion-marketplace",
+        "postman-public-api-network",
+        "figma-community",
+        "sketch-plugins",
+        "webflow-apps",
+        "hubspot-marketplace",
+        "zapier-app-directory",
+        "auth0-marketplace",
+        "kong-plugin-hub",
+        "tyk-plugins",
+        "gravitee-plugins",
+        "open-webui-functions",
+        "openai-gpts",
+        "claude-code-plugins",
+        "other"
+      ],
+      "example": "vs-code-marketplace"
+    },
+    "publisher": {
+      "type": "string",
+      "description": "Publisher account that owns this listing.",
+      "example": "anthropic"
+    },
+    "short_description": {
+      "type": "string",
+      "description": "Short marketing description shown on listing cards.",
+      "example": "AI pair programmer for your editor."
+    },
+    "long_description": {
+      "type": "string",
+      "description": "Full marketing description shown on the listing detail page.",
+      "example": "Claude Code brings Anthropic's Claude model into your editor for code generation, refactoring, and review."
+    },
+    "categories": {
+      "type": "array",
+      "description": "Marketplace categories or tags the listing is filed under.",
+      "items": { "type": "string" },
+      "example": ["AI", "Productivity", "Developer Tools"]
+    },
+    "pricing_model": {
+      "type": "string",
+      "description": "Pricing model used by the listing.",
+      "enum": ["free", "freemium", "paid", "subscription", "usage-based", "byol"],
+      "example": "freemium"
+    },
+    "rating": {
+      "type": "number",
+      "description": "Average user rating, on a 0 to 5 scale.",
+      "minimum": 0,
+      "maximum": 5,
+      "example": 4.7
+    },
+    "rating_count": {
+      "type": "integer",
+      "description": "Number of user ratings used to compute the average.",
+      "minimum": 0,
+      "example": 1284
+    },
+    "install_count": {
+      "type": "integer",
+      "description": "Cumulative install count reported by the marketplace.",
+      "minimum": 0,
+      "example": 1500000
+    },
+    "verified": {
+      "type": "boolean",
+      "description": "Whether the publisher is marked verified or partner by the marketplace.",
+      "example": true
+    },
+    "listing_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Canonical URL of the listing on the marketplace.",
+      "example": "https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code"
+    },
+    "icon_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL of the listing icon or logo.",
+      "example": "https://anthropic.com/images/claude-code-icon.png"
+    },
+    "screenshots": {
+      "type": "array",
+      "description": "URLs of marketing screenshots for the listing.",
+      "items": { "type": "string", "format": "uri" }
+    },
+    "supports_hosts": {
+      "type": "array",
+      "description": "Host platforms or product editions supported by this listing.",
+      "items": { "type": "string" },
+      "example": ["VS Code", "VS Code Insiders"]
+    },
+    "current_version": {
+      "type": "string",
+      "description": "Latest published version of the plugin behind this listing.",
+      "example": "1.4.0"
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp of the most recent version published to this listing.",
+      "example": "2026-05-12T10:30:00Z"
+    }
+  },
+  "required": ["listing_id", "name", "marketplace", "publisher"]
+}
