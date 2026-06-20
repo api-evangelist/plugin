@@ -3,7 +3,7 @@ name: Plugin
 description: >-
   An index and topic collection covering plugin, extension, and add-on architectures with public APIs and marketplaces. This collection spans editor and IDE plugin ecosystems (VS Code Marketplace, JetBrains Marketplace, Chrome Web Store, Firefox Add-ons), SaaS platform extension marketplaces (Atlassian Marketplace and Forge, Salesforce AppExchange, Shopify App Store, WordPress Plugins, Slack Apps, Discord Apps, Microsoft AppSource, Google Workspace Marketplace, Notion, Postman, Figma, Sketch, Webflow Apps, HubSpot Marketplace, Zapier App Directory), API gateway plugin frameworks (Kong Plugin Hub, Tyk Plugins, Gravitee Plugins), identity extensibility (Auth0 Actions and Extensions), and AI plugin and tool ecosystems (Open WebUI Functions, ChatGPT Plugins and GPTs, Claude Code plugins, OpenAI tools). It tracks the manifests, listing schemas, install and entitlement flows, extension points, and review and distribution APIs that power modern plugin and extension marketplaces.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Plugin
 - Extension
