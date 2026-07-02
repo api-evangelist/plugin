@@ -1,0 +1,11 @@
+related:
+- name: Aggregation
+  url: https://aggregation.apievangelist.com
+  icon: https://aggregation.apievangelist.com/icon.png
+  description: An index and topic collection covering API aggregation, marketplaces, directories, unified
+    APIs, and catalog platforms. API aggregation brings together multiple APIs under a…
+- name: Portal
+  url: https://portal.apievangelist.com
+  icon: https://portal.apievangelist.com/icon.png
+  description: A curated index of services, tooling, and open source solutions for API developer portals,
+    API catalogs, API marketplaces, and developer experience platforms. This collection…
