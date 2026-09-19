@@ -1,8 +1,7 @@
 ---
-title: Microsoft Documented Its OpenAPI Extensions For A Decade And Never Registered
-  Them
-link: http://apievangelist.com/2026/09/07/microsoft-documented-its-openapi-extensions-for-a-decade-and-never-registered-them/
-published: '2026-09-07'
+title: Mintlify Does A Lot With One OpenAPI Extension
+link: http://apievangelist.com/2026/09/14/mintlify-does-a-lot-with-one-openapi-extension/
+published: '2026-09-14'
 provider: programmableweb
 repo: https://github.com/api-evangelist/programmableweb
 domain: apievangelist.com

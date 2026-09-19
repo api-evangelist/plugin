@@ -1,7 +1,7 @@
 ---
-title: Redocly Already Knows How To Register An OpenAPI Extension
-link: http://apievangelist.com/2026/09/03/redocly-already-knows-how-to-register-an-openapi-extension/
-published: '2026-09-03'
+title: Speakeasy Has Thirty-Six OpenAPI Extensions And Zero Registered
+link: http://apievangelist.com/2026/09/04/speakeasy-has-thirty-six-openapi-extensions-and-zero-registered/
+published: '2026-09-04'
 provider: programmableweb
 repo: https://github.com/api-evangelist/programmableweb
 domain: apievangelist.com
