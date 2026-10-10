@@ -14,11 +14,11 @@ meta:
     flows, extension points, and review and distribution APIs that power modern plugin
     and extension marketplaces.
   tags:
-  - Plugin
+  - Plugins
   - Extension
   - Marketplace
   - App Directory
-  - Add-on
+  - Addon
   portal: https://apievangelist.com
   github: https://github.com/api-evangelist
   repo: plugin
