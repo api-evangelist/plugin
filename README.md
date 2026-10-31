@@ -1,123 +1,97 @@
-# Plugin (plugin)
-An index and topic collection covering plugin, extension, and add-on architectures with public APIs and marketplaces. This collection spans editor and IDE plugin ecosystems (VS Code Marketplace, JetBrains Marketplace, Chrome Web Store, Firefox Add-ons), SaaS platform extension marketplaces (Atlassian Marketplace and Forge, Salesforce AppExchange, Shopify App Store, WordPress Plugins, Slack Apps, Discord Apps, Microsoft AppSource, Google Workspace Marketplace, Notion, Postman, Figma, Sketch, Webflow Apps, HubSpot Marketplace, Zapier App Directory), API gateway plugin frameworks (Kong Plugin Hub, Tyk Plugins, Gravitee Plugins), identity extensibility (Auth0 Actions and Extensions), and AI plugin and tool ecosystems (Open WebUI Functions, ChatGPT Plugins and GPTs, Claude Code plugins, OpenAI tools).
+# Plugin
 
-**URL:** [https://apievangelist.com](https://apievangelist.com)
+<!-- API-EVANGELIST-PROVENANCE:BEGIN -->
+> ### About this repository
+>
+> **This is not our API.** This repository is an independent, third-party profile of a company's
+> **publicly available** API surface, maintained by [API Evangelist](https://apievangelist.com).
+> API Evangelist does not operate, host, resell, or support this company's APIs, and is not
+> affiliated with or endorsed by the company unless stated on the profile.
+>
+> **Where the information came from.** Everything here is assembled from material a member of the
+> public can reach with a browser and no credentials — the company's own website, developer portal
+> and documentation, the specifications it publishes for public use (OpenAPI, AsyncAPI, JSON Schema,
+> `apis.json`, `llms.txt` and similar), its public repositories, and its public status, pricing and
+> changelog pages. **Nothing here is obtained by breaching a system, defeating an access control, or
+> using credentials of any kind.**
+>
+> **The rating is an independent assessment.** The Kin Score and Agent Readiness rating are
+> independently calculated scores of a company's *public* API artifacts, produced by API Evangelist
+> against a published rubric. They are not certifications, endorsements, security assessments, or
+> audits, and they score published artifacts — not the quality, safety, or security of the software.
+>
+> **Corrections, re-scores, and removal are free.** No partnership, contract, or purchase is
+> required, and you do not need to justify the request.
+>
+> - **Something wrong?** Open an issue on this repository, or email
+>   [info@apievangelist.com](mailto:info@apievangelist.com).
+> - **Published something new?** Ask for a re-score and we will re-run the rating.
+> - **Want the listing taken down?** Say so and we will honor it. The profile is reduced to your
+>   company name, a factual description, and a link to your own site, and the company is recorded as
+>   **unrated** — never scored zero for having asked.
+>
+> **Response times.** Acknowledgement within **one business day**; removal or restriction within
+> **two business days**; corrections and re-scores within **five business days**.
+>
+> **Not from the company, and here with a question?** You are welcome here — we would rather be the
+> front line and point you the right way than have a good report go nowhere. What this repository
+> can answer is narrow, though, so it is worth knowing who you are actually looking for:
+>
+> - **A question about how the API works, an account, billing, or a bug in the service** — that is
+>   the company's own support, not us. We profile this API; we do not operate it and cannot see
+>   your account.
+> - **A bug in an open-source project we only catalog** — file it on that project's own repository.
+>   This has happened with a real and correct bug report that reached us instead of the people who
+>   could fix it, which helped nobody.
+> - **Anything about this listing itself** — the description, the tags, the rating, a missing or
+>   wrong artifact — is ours. Open an issue here.
+> - **Not sure, or something general about API Evangelist or APIs.io** — open an issue on the
+>   [APIs.io Inbox](https://github.com/api-search/inbox) and we will route it.
+>
+> **This repository contains no software, and we will never ask you to download anything.** There is
+> no build, release, installer, or binary here — only text and machine-readable API descriptions, so
+> there is nothing here that can be "corrupt" or need "repairing". Any issue, comment, or email
+> claiming otherwise and offering a download link is not from us and is hostile. Do not follow the
+> link; it is a lure. Report it to GitHub and, if you like, tell us at
+> [info@apievangelist.com](mailto:info@apievangelist.com) so we can take it down.
+>
+> **On a security or compliance team?** Email
+> [info@apievangelist.com](mailto:info@apievangelist.com) with *security* in the subject line and
+> you will get a person, not a form. We will tell you exactly which public URLs this profile was
+> built from so your team can see the same surface we did, and we will take the listing down on
+> request while you work through it.
+>
+> Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
+<!-- API-EVANGELIST-PROVENANCE:END -->
 
-## Tags:
+An index and topic collection covering plugin, extension, and add-on architectures with public APIs and marketplaces. This collection spans editor and IDE plugin ecosystems (VS Code Marketplace, JetBrains Marketplace, Chrome Web Store, Firefox Add-ons), SaaS platform extension marketplaces (Atlassian Marketplace and Forge, Salesforce AppExchange, Shopify App Store, WordPress Plugins, Slack Apps, Discord Apps, Microsoft AppSource, Google Workspace Marketplace, Notion, Postman, Figma, Sketch, Webflow Apps, HubSpot Marketplace, Zapier App Directory), API gateway plugin frameworks (Kong Plugin Hub, Tyk Plugins, Gravitee Plugins), identity extensibility (Auth0 Actions and Extensions), and AI plugin and tool ecosystems (Open WebUI Functions, ChatGPT Plugins and GPTs, Claude Code plugins, OpenAI tools). It tracks the manifests, listing schemas, install and entitlement flows, extension points, and review and distribution APIs that power modern plugin and extension marketplaces.
 
- - Plugin, Extension, Marketplace, App Directory, Add-on
+**Areas:** Plugins · Extension · Marketplace · App Directory · Addon
 
-## Timestamps
+## Plugin on APIs.io
 
-- **Created:** 2026-05-19
-- **Modified:** 2026-05-19
+Everything profiled for Plugin is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/plugin/](https://apis.io/providers/plugin/)** — or go straight to one of the APIs or properties below.
 
-## Common Properties
+## Where to find this API
 
-- [Portal](https://apievangelist.com)
-- [GitHubOrganization](https://github.com/api-evangelist)
-- [JSONSchema - Plugin Manifest Schema](https://raw.githubusercontent.com/api-evangelist/plugin/refs/heads/main/json-schema/plugin-manifest-schema.json)
-- [JSONSchema - Marketplace Listing Schema](https://raw.githubusercontent.com/api-evangelist/plugin/refs/heads/main/json-schema/plugin-marketplace-listing-schema.json)
-- [JSON-LD](https://raw.githubusercontent.com/api-evangelist/plugin/refs/heads/main/json-ld/plugin-context.jsonld)
-- [Vocabulary](https://raw.githubusercontent.com/api-evangelist/plugin/refs/heads/main/vocabulary/plugin-vocabulary.yaml)
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Features
+- [GitHub](https://github.com/api-evangelist)
 
-| Name | Description |
-|------|-------------|
-| Plugin Manifests | Marketplaces and runtimes use declarative manifests (manifest.json, plugin.xml, app manifests) to describe identity, permissions, entry points, and capabilities of a plugin. |
-| Marketplace Listing and Discovery APIs | Public APIs and search endpoints expose listings, categories, ratings, and download counts so developers and users can discover plugins across major marketplaces. |
-| Extension Points and Hooks | Host platforms expose well-defined extension points, events, and lifecycle hooks (Forge modules, Shopify Functions, Auth0 Actions, Kong plugin phases, WordPress hooks) that plugins implement. |
-| Install, Update, and Entitlement Flows | Marketplaces standardize installation, OAuth grant, license check, and entitlement validation flows for individual users, organizations, and tenants. |
-| Sandboxing and Permissions | Plugin runtimes enforce permission scopes, sandboxed execution, and review processes to protect host platforms and end users. |
-| AI Tooling and Agent Plugins | AI platforms expose plugin and tool surfaces (ChatGPT GPTs, Open WebUI Functions, Claude Code plugins, OpenAI tools) that extend LLM behavior with custom actions. |
-| API Gateway Plugin Frameworks | API gateways such as Kong, Tyk, and Gravitee define plugin frameworks where auth, transformation, rate limiting, and observability are distributed as installable plugins. |
+## API Evangelist rating
 
-## Use Cases
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-| Name | Description |
-|------|-------------|
-| Editor and IDE Extensibility | Ship language support, linters, debuggers, and AI assistants as plugins through VS Code Marketplace and JetBrains Marketplace. |
-| SaaS Platform App Marketplaces | Build apps on Salesforce AppExchange, Shopify App Store, Atlassian Marketplace, HubSpot Marketplace, and Slack App Directory to extend SaaS platforms. |
-| Browser Extension Distribution | Package and distribute browser extensions for content blocking, productivity, and accessibility through Chrome Web Store and Firefox Add-ons. |
-| API Gateway Customization | Extend Kong, Tyk, and Gravitee with custom plugins for authentication, request transformation, and policy enforcement. |
-| CMS and Commerce Extensibility | WordPress plugin directory and Shopify App Store extend CMS and commerce platforms with payment processors, shipping, and analytics. |
-| AI Agent Tooling | Publish ChatGPT GPTs and plugins, Open WebUI Functions, and Claude Code plugins to give AI agents domain-specific tools and connectors. |
-| Identity and Access Extensions | Auth0 Actions, Extensions, and Marketplace add custom rules, MFA providers, and SSO integrations to identity flows without forking the platform. |
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
 
-## Integrations
+## How this profile is made
 
-| Name | Description |
-|------|-------------|
-| VS Code Marketplace | Microsoft's marketplace for Visual Studio Code and Visual Studio extensions, with a Gallery API for search, download, and metadata. |
-| JetBrains Marketplace | Official plugin and theme distribution platform for IntelliJ IDEA, PyCharm, WebStorm, and other JetBrains IDEs with a public plugins API. |
-| Chrome Web Store | Google's distribution channel for Chrome and Edge browser extensions and themes, governed by Manifest V3 and the Chrome Web Store API. |
-| Atlassian Marketplace | Marketplace for apps extending Jira, Confluence, and Bitbucket, including Atlassian Connect and Forge apps with a public Marketplace REST API. |
-| Salesforce AppExchange | Enterprise marketplace for managed packages and Lightning components extending Salesforce CRM, with package install APIs and security review. |
-| Shopify App Store | Marketplace for apps extending Shopify Admin, Storefront, and Checkout via Shopify Apps, Functions, and Theme App Extensions. |
-| WordPress Plugin Directory | Open directory of free WordPress plugins powering a large share of the web, distributed through wordpress.org with a public plugins.org API. |
-| Slack App Directory | Directory of Slack apps and integrations built on the Slack platform, manifested through app config and the Apps API. |
-| Microsoft AppSource | Microsoft's marketplace for business apps and Office 365 add-ins, Teams apps, and Power Platform connectors. |
-| Google Workspace Marketplace | Distribution platform for Google Workspace add-ons and Apps Script-based extensions to Gmail, Drive, Docs, Sheets, and Calendar. |
-| HubSpot Marketplace | Marketplace for HubSpot apps, themes, and templates extending the HubSpot CRM and CMS via OAuth apps and serverless functions. |
-| Zapier App Directory | Directory of integrations and triggers/actions that Zapier exposes to its automation builder via the Zapier Platform CLI. |
-| Kong Plugin Hub | Catalog of first-party and community plugins for Kong Gateway and Konnect, written in Lua, Go, or JavaScript. |
-| Open WebUI Functions | Pluggable functions, tools, and pipelines that extend the Open WebUI LLM chat interface with custom integrations. |
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Artifacts
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Plugin: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-Machine-readable specifications organized by format.
+## Open an issue
 
-### JSON Schema
-
-- [Plugin Manifest Schema](json-schema/plugin-manifest-schema.json)
-- [Marketplace Listing Schema](json-schema/plugin-marketplace-listing-schema.json)
-
-### JSON Structure
-
-- [Plugin Manifest Structure](json-structure/plugin-manifest-structure.json)
-- [Marketplace Listing Structure](json-structure/plugin-marketplace-listing-structure.json)
-
-### JSON-LD
-
-- [Plugin Context](json-ld/plugin-context.jsonld)
-
-## Vocabulary
-
-- [Plugin Vocabulary](vocabulary/plugin-vocabulary.yaml) — Unified taxonomy mapping resources, actions, workflows, and personas across plugin manifests, marketplace listings, installs, and extension points
-
-## Network
-
-This index references the following plugin and extension marketplace repositories:
-
-- [VS Code Marketplace](https://github.com/api-evangelist/vs-code-marketplace)
-- [JetBrains Marketplace](https://github.com/api-evangelist/jetbrains-plugin)
-- [Google Chrome](https://github.com/api-evangelist/google-chrome)
-- [Atlassian](https://github.com/api-evangelist/atlassian)
-- [Salesforce](https://github.com/api-evangelist/salesforce)
-- [Shopify](https://github.com/api-evangelist/shopify)
-- [WordPress](https://github.com/api-evangelist/wordpress)
-- [Slack](https://github.com/api-evangelist/slack)
-- [Discord](https://github.com/api-evangelist/discord)
-- [Microsoft Office 365](https://github.com/api-evangelist/microsoft-office-365)
-- [Google Workspace](https://github.com/api-evangelist/google-workspace)
-- [Notion](https://github.com/api-evangelist/notion)
-- [Postman](https://github.com/api-evangelist/postman)
-- [Figma](https://github.com/api-evangelist/figma)
-- [Webflow](https://github.com/api-evangelist/webflow)
-- [HubSpot](https://github.com/api-evangelist/hubspot)
-- [Zapier](https://github.com/api-evangelist/zapier)
-- [Auth0](https://github.com/api-evangelist/auth0)
-- [Kong](https://github.com/api-evangelist/kong)
-- [Tyk](https://github.com/api-evangelist/tyk)
-- [Gravitee](https://github.com/api-evangelist/gravitee)
-- [Open WebUI](https://github.com/api-evangelist/open-webui)
-- [ChatGPT](https://github.com/api-evangelist/chatgpt)
-- [OpenAI](https://github.com/api-evangelist/openai)
-- [Claude](https://github.com/api-evangelist/claude)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/plugin/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
